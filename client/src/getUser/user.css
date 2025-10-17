@@ -1,0 +1,162 @@
+.userTable {
+    width: 50%;
+    margin: 50px auto;
+    background-color: white;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px rgba(10, 10, 10, 0.065)
+}
+
+.userTable table {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.userTable table thead th {
+    background-color: darkcyan;
+    color: white;
+}
+
+.userTable table tbody td {
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.actionButton button {
+    margin: 0 10px;
+}
+
+
+
+
+
+.userTable table {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.userTable table thead th {
+    background-color: darkcyan;
+    color: white;
+}
+
+.userTable table tbody td {
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.actionButton button {
+    margin: 0 10px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    body{
+        font-size: 16px;
+        
+    }
+    .userTable {
+        /* background-color: rebeccapurple; */
+        width: 100%;
+        margin-top: 50px;
+        padding: 10px;
+    }
+
+    .actionButton button {
+        margin: 2 0px;
+
+    }
+
+    .userTable table {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .userTable table tbody td {
+        padding: 0px 4px;
+        text-align: center;
+        vertical-align: middle;
+    }
+    .userTable table tbody td {
+    padding:4px 0px;
+    text-align: center;
+    vertical-align: middle;
+}
+}
+
+
+@media only screen and (max-width: 820px) {
+    body{
+        font-size: 16px;
+        
+    }
+    .userTable {
+        /* background-color: rebeccapurple; */
+        width: 80%;
+        margin-top: 50px;
+        padding: 10px;
+    }
+
+    .actionButton button {
+        margin: 2 0px;
+
+    }
+
+    .userTable table {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .userTable table tbody td {
+        padding: 0px 4px;
+        text-align: center;
+        vertical-align: middle;
+    }
+    .userTable table tbody td {
+    padding:4px 0px;
+    text-align: center;
+    vertical-align: middle;
+}
+}
+
+
+@media only screen and (max-width: 576px) {
+    body {
+        font-size: 10px;
+
+    }
+
+    .userTable {
+        width: 100%;
+    margin: 0px auto;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px rgba(10, 10, 10, 0.065)
+    }
+
+    .actionButton button {
+        margin: 2px 0px;
+
+    }
+
+    .userTable table {
+        width: 100%;
+        
+    }
+
+    .userTable table tbody td {
+        padding: 0px 4px;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .userTable table tbody td {
+        padding: 4px 0px;
+        text-align: center;
+        vertical-align: middle;
+    }
+}
+
