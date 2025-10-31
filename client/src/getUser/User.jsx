@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios';
 import "./user.css"
 import { Link } from 'react-router-dom';
+import PageTitle from '../componets/PageTitle';
 
 const baseURL = import.meta.env.VITE_BASE_URI
 
@@ -31,7 +32,9 @@ const User = () => {
     }
 
     return (
+       
         <div className='userTable'>
+             <PageTitle title="all User"/>
             <Link to="/add" type="button" className="btn btn-primary">Add User <i className='fa-solid fa-user-plus'></i></Link>
             <table className='table table-bordered'>
                 <thead>

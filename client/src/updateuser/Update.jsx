@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import "./update.css"
 import { Link,useNavigate,useParams } from 'react-router-dom'
 import axios from 'axios'
+import PageTitle from '../componets/PageTitle'
 const baseURL=import.meta.env.VITE_BASE_URI
 
 
@@ -47,6 +48,7 @@ const UpdateUser = () => {
 
   return (
     <div className='addUser'>
+      <PageTitle title="Update User"/>
         <Link to="/"type="button" className="btn btn-secondary">Back</Link>
       <h3>Update User</h3>
       <form className='addUserForm' onSubmit={submitForm}>

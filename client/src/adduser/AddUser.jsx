@@ -4,6 +4,7 @@ import { Link,useNavigate } from 'react-router-dom'
 import axios from 'axios'
 
 import toast from 'react-hot-toast';
+import PageTitle from '../componets/PageTitle';
 axios.defaults.baseURL=import.meta.env.VITE_BASE_URI
 
 function AddUser() {
@@ -44,6 +45,7 @@ console.log(currency)
 
   return (
     <div className='addUser'>
+      <PageTitle title="add user"/>
       
         <Link to="/"type="button" className="btn btn-secondary">Back</Link>
       <h3>Add New User{currency}</h3>

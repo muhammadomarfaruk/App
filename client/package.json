@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "proxy":"https://app-client-ruddy.vercel.app",
+  "proxy": "https://app-client-ruddy.vercel.app",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -17,6 +17,7 @@
     "font-awesome": "^4.7.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+    "react-helmet": "^6.1.0",
     "react-hot-toast": "^2.6.0",
     "react-router-dom": "^7.9.4"
   },
